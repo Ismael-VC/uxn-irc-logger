@@ -70,12 +70,10 @@ def irc_logs(irc_dir, name, filename=None, dir_mtime={}):
 
 
 IRC_CHANS = {
-    "quodlibet": "#quodlibet@irc.oftc.net",
-    "pypy": "#pypy@irc.libera.chat",
-    "hpy": "#hpy@irc.libera.chat",
+    "uxn": "#uxn@irc.libera.net",
 }
 
-DEFAULT_CHAN = "quodlibet"
+DEFAULT_CHAN = "uxn"
 
 @app.route('/irc/<name>/')
 @app.route('/irc/<name>/<path:filename>')
